@@ -1,0 +1,89 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #1b1b1b; /* slightly lighter for better contrast */
+  color: #e0e0e0; /* brighter text */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #252525; /* slightly lighter card */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6); /* stronger shadow */
+  max-width: 480px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #fcd6d6; /* brighter title */
+}
+
+input[type=number] {
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+  width: 4rem;
+  border-radius: 5px;
+  border: 1px solid #555; /* visible border */
+  background-color: #333; /* darker input for contrast */
+  color: #f7d9d9; /* readable text */
+}
+
+.checkboxes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.checkboxes label {
+  color: #e4c0c0; /* lighter checkbox labels */
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #646cff; /* brighter button color */
+  color: #e2c5c5; /* button text visible */
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+button:hover {
+  border-color: #4b4fff;
+  background-color: #535bf2;
+}
+
+.output {
+  background: rgba(255, 255, 255, 0.1); /* slightly brighter */
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-family: monospace;
+  word-break: break-all;
+  color: #f0f0f0; /* output text visible */
+}
+
+.copied {
+  color: #4ade80; /* brighter green */
+  margin-left: 0.5rem;
+}

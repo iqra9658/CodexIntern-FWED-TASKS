@@ -1,0 +1,27 @@
+/* Minimal, clean styles for demo */
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-color: #f0f4f8;
+}
+
+nav a {
+  color: inherit;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #0ea5e9;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.6;
+}
